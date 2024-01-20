@@ -19,7 +19,7 @@ export const MusicUploadForm = () => {
             <input className='uplodfile' type='file' />
             <ClipLoader color={'red'}
                 loading={load}
-                size={50}
+                size={30}
                 aria-label="Loading Spinner"
                 data-testid="loader" className='loader'
             />
