@@ -1,0 +1,33 @@
+.songrow {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 0.3fr 2fr 2fr 1fr 0.6fr;
+  height: 60px;
+  border-radius: 5px;
+  background: #e6e6e6;
+  border-bottom: 3px solid #969696;
+  &:hover {
+    transition: all;
+    background: rgb(195, 195, 195);
+  }
+  div {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+  }
+}
+
+.svgs {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+@media screen and (max-width: 1200px) {
+  .songrow {
+    width: 1200px;
+  }
+  .songlist{
+    overflow-x: auto;
+  }
+}

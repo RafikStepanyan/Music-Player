@@ -1,0 +1,20 @@
+.tableheader {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 0.3fr 2fr 2fr 1fr 0.6fr;
+  height: 60px;
+  border-radius: 5px;
+  div {
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    background: rgb(195, 195, 195);
+    border: 1px solid white;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .tableheader {
+    width: 1200px;
+  }
+}
